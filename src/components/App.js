@@ -4,7 +4,6 @@ import { Component } from 'react';
 function App() {
   return (
     <div className="App">
-      Hello There!
       <SignIn />
     </div>
   );
