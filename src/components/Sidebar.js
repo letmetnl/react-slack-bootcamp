@@ -5,24 +5,20 @@ class Sidebar extends Component {
     return (
       <div id="sidebar">
         <div className="user-profile">
-          <div>
-            <img />
-            <div className="avatar">
-              <img src="https://www.flaticon.com/svg/static/icons/svg/2919/2919600.svg" />
-            </div>
-            <div>Ronald</div>
+          <div className="avatar">
+            <img src="https://www.flaticon.com/svg/static/icons/svg/2919/2919600.svg" />
           </div>
-          <hr className="sidebar-spacer" />
+          <div>Ronald</div>
+        </div>
+        <hr className="sidebar-spacer" />
 
-          <div className="user-channels"></div>
-          <div className="channels">
-            <div className="header">Channels</div>
+        <div className="channels">
+          <div className="header">Channels</div>
 
-            <ul className="channels-list">
-              <li># assignment</li>
-              <li># test</li>
-            </ul>
-          </div>
+          <ul className="channels-list">
+            <li># assignment</li>
+            <li># test</li>
+          </ul>
         </div>
       </div>
     );

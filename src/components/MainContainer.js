@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 class MainComponent extends Component {
   render() {
-    return <div>MainComponent</div>;
     return (
       <div id="main-container">
         <div className="about-channel">
