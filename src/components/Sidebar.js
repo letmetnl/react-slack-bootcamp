@@ -7,11 +7,23 @@ class Sidebar extends Component {
         <div className="user-profile">
           <div>
             <img />
+            <div className="avatar">
+              <img src="https://www.flaticon.com/svg/static/icons/svg/2919/2919600.svg" />
+            </div>
+            <div>Ronald</div>
           </div>
-          <div>Ronald</div>
-        </div>
+          <hr className="sidebar-spacer" />
 
-        <div className="user-channels"></div>
+          <div className="user-channels"></div>
+          <div className="channels">
+            <div className="header">Channels</div>
+
+            <ul className="channels-list">
+              <li># assignment</li>
+              <li># test</li>
+            </ul>
+          </div>
+        </div>
       </div>
     );
   }
